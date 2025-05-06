@@ -4,7 +4,7 @@ using UnityEngine;
 
 [SelectionBase]
 public class Gate : MonoBehaviour {
-    [SerializeField] bool opening = false; // hello this is my comment
+    [SerializeField] bool opening = false; // hello this is my comment for Testing merge conflict...
     [Range(0, 1)] public float howOpen = 0;
     [SerializeField] float speed = 1;
     [SerializeField] float maxRotation = 90;
